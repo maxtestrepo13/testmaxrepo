@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Sep 11 13:36:23 MSK 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015e-7082-f2fc-00000c981b40 
+on database directory /home/nemez/Desktop/Borisov Project/java/teachers with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/home/nemez/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=/home/nemez/Desktop/Borisov Project/java
+os.name=Linux
+os.arch=amd64
+os.version=4.10.0-33-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head id="Head1">
+    <title>Sign Up</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+</head>
+<body>
+
+<form id="form1" runat="server">
+    <div id="status">Please fill your name and emails</div>
+    <p th:text="'Hello, ' + ${id} + '!'"/>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" id="name"/></td>
+        </tr>
+
+        <tr>
+            <td>Mails:</td>
+            <td><input type="text" id="mails"/></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" id="btnSubmit" value="Submit"/>
+            </td>
+        </tr>
+    </table>
+    <label id="lblmsg" style="font-weight:bold; color:Red"/>
+</form>
+
+<br/>
+<br/>
+<p id="resultid"></p>
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $(function () {
+        $('#btnSubmit').click(function () {
+            var name = $('#name').val();
+            var mails = $('#mails').val();
+            var id = 0;
+
+
+            if (name != '' && mails != '') {
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    url: "http://localhost:8010/teachers/saveTeacher",
+                    data: "{\"name\":\"" + name + "\",\"mails\":\"" + mails + "\"}",
+                    dataType: "json",
+                    success: function (data) {
+                        $("#form1").hide(),
+                        $("#resultid").text(data);
+                    },
+                    error: function (result) {
+                        alert("Error get");
+                    }
+                });
+            }
+            else {
+                alert('Please enter all the fields')
+                return false;
+            }
+        });
+    });
+    /*]]>*/
+</script>
+</body>
+</html>

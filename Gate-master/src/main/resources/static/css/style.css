@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar-top {
+    width: 100%;
+    position: relative;
+    color: white;
+    background-color: #03A9F4;
+}
+
+.navbar-top h2 {
+    font-weight: bold;
+}
+
+.question-field {
+    width: 50%;
+    margin: auto 25% auto 25%;
+    border-bottom: 3px solid #03A9F4;
+    text-align: center;
+}
+
+.result-field {
+    width: 45%;
+    padding: 1%;
+    margin: 5vh auto;
+    border: 3px solid #03A9F4;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FAFAFA;
+}
+
+.correct {
+    color: #4CAF50;
+}
+
+.wrong {
+    color: #FF3D00;
+}
+
+.skipped {
+    color: #1976D2;
+}
+
+#examSelectorForm {
+    width: 30%;
+    margin: 5vh auto 0 auto;
+    padding: 4%;
+    border: 3px solid #03A9F4;
+    border-radius: 20px;
+    background-color: #FAFAFA;
+}
+
+#examForm {
+    margin-top: 4%;
+}
+
+#taskViewsContainer {
+    display: none;
+}

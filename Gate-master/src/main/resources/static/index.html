@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title>Gate-Master</title>
+</head>
+<body>
+<div class="container col-lg-12">
+    <div class="row">
+        <div class="container navbar-top text-center">
+            <h2>eCENTER</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container content">
+            <form id="examSelectorForm">
+                <div class="form-group">
+                    <label for="studentNameInput">STUDENT NAME</label>
+                    <input type="text" class="form-control" id="studentNameInput"
+                           placeholder="Please enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="teacherIdInput">TEACHER ID</label>
+                    <input type="text" class="form-control" id="teacherIdInput"
+                           placeholder="Please enter teacher ID" required>
+                </div>
+                <div class="form-group">
+                    <label for="examIdInput">EXAM ID</label>
+                    <input type="text" class="form-control" id="examIdInput" placeholder="Please enter exam ID"
+                           required>
+                </div>
+                <div class="container text-center col-lg-12">
+                    <button id="examIdSubmit" type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+            <div id="taskViewsContainer">
+                <div class="card task-image-template">
+                    <div class="card-block">
+                        <div class="question-field">
+                            <h3 class="card-title task-question">How many times you clean your teeth?</h3>
+                            <img class="task-image" src="http://via.placeholder.com/350x150">
+                            <div class="form-group">
+                                <label>Answer</label>
+                                <input type="text" class="form-control task-answer"
+                                       placeholder="Enter your answer here">
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input task-skip" type="checkbox">
+                                    Skip question
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card task-simple-template">
+                    <div class="card-block">
+                        <div class="question-field">
+                            <h3 class="card-title task-question">How long you sleep?</h3>
+                            <div class="form-group">
+                                <label>Answer</label>
+                                <input type="text" class="form-control task-answer">
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input task-skip" type="checkbox">
+                                    Skip question
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="task-options-option-template form-check">
+                    <div class="question-field">
+                        <label class="form-check-label">
+                            <input class="task-option-input form-check-input" type="checkbox" value="">
+                            <span class="task-option-label">das</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="card task-options-template">
+                    <div class="question-field">
+                        <div class="card-block">
+                            <h4 class="card-title task-question">dasdas</h4>
+                            <div class="form-options"></div>
+
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input task-skip" type="checkbox">
+                                    Skip question
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-field">
+                    <div id="examResult">
+                        <span>Seconds: </span><span id="seconds">42</span> |
+                        <span class="correct">Correct: </span><span id="correct">5</span> |
+                        <span class="wrong">Wrong: </span><span id="wrong">3</span> |
+                        <span class="skipped">Skipped: </span><span id="skipped">1</span> |
+                        <span>TOTAL: </span><span id="total">10</span>
+                    </div>
+                    <form id="examForm">
+                        <div id="tasksContainer"></div>
+                        <button id="examSubmit" type="button" class="btn btn-success">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

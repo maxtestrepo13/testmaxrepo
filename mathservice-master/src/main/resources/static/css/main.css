@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-top {
+    width: 100%;
+    position: relative;
+    color: white;
+    background-color: #2E7D32;
+}
+
+.navbar-top h2 {
+    font-weight: bold;
+}
+
+.exam-type-form label {
+    font-size: 2em;
+}
+
+#table_wrapper{
+    margin-top: 5vw;
+}
+
+#new_exam_wrapper{
+    margin-top: 5vw;
+}
+
+#new_exam_wrapper input{
+    border-radius: 5px;
+}
+
+#table_wrapper table{
+    width: 100%;
+}
+
+#table_wrapper th,td{
+    text-align: center;
+    border: 3px solid lightgrey;
+}
+
+#template{
+    width: 70%;
+}
+
+#amount{
+    width: 20%;
+}
+
+#exam-title{
+    width: 100%;
+}
+
+#exam-title::placeholder{
+    text-align: center;
+    font-weight: bold;
+}
+
+#save-exam{
+    width: 35%;
+    font-size: 1.3em;
+}
+
+#new-exam-btn{
+    margin: 2% auto 3% auto;
+}
+
+.exam-table table{
+    width: 35%;
+}
+
+.exam-table th,td{
+    text-align: center;
+    border: 3px solid lightgray;
+}
+
+.center-content{
+    margin: auto 25%;
+}

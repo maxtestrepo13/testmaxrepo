@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>New exam template</title>
+    <script type="text/javascript" th:src="@{/js/table_script.js}"></script>
+    <script type="text/javascript" th:src="@{/js/simple_expressions_script.js}"></script>
+</head>
+
+<body>
+<div id="new-exam-wrapper" style="float: left; margin-left: 10%;margin-top: 50px">
+    <label>
+        <input type="text" id="exam-title" placeholder="Exam title" style="margin-bottom: 30px; margin-top: 20px"/>
+        <input type="button" onclick="send_exam()" id="save-exam" value="Save exam" style="margin-right: 100px"/>
+    </label>
+    <form id="form1" name="constraints">
+        <br/><b>a+b</b> <br/>
+        <input type="number" name="amount" id="plus-amount" placeholder="Amount" value="0"/>
+        <br/>
+        <div id="plus-constraints-configuration">a from <input type="number" name="a.from" value="1"/>
+            to <input type="number" name="a.to" value="10"/><br/>b
+            from
+            <input type="number" name="b.from" value="1"/>
+            to <input type="number" name="b.to" value="10"/><br/>
+        </div>
+    </form>
+    <form id="form2" name="constraints">
+        <br/><b>a-b</b> <br/>
+        <input type="number" name="amount" id="minus-amount" placeholder="Amount" value="0"/>
+        <br/>
+        <div id="minus-constraints-configuration">a from <input type="number" name="a.from" value="1"/> to
+            <input type="number" name="a.to" value="10"/><br/>b
+            from
+            <input type="number" name="b.from" value="1"/>
+            to <input type="number" name="b.to" value="10"/><br/></div>
+    </form>
+    <form id="form3" name="constraints">
+        <br/><b>a*b</b> <br/>
+        <input type="number" name="amount" id="multiply-amount" placeholder="Amount" value="0"/>
+        <br/>
+        <div id="multiply-constraints-configuration">a from <input type="number" name="a.from" value="1"/> to
+            <input type="number" name="a.to" value="10"/><br/>b
+            from
+            <input type="number" name="b.from" value="1"/>
+            to <input type="number" name="b.to" value="10"/><br/></div>
+    </form>
+    <form id="form4" name="constraints">
+        <br/><b>a/b</b> <br/>
+        <input type="number" name="amount" id="divide-amount" placeholder="Amount" value="0"/>
+        <br/>
+        <div id="divide-constraints-configuration">a from <input type="number" name="a.from" value="1"/> to
+            <input type="number" name="a.to" value="10"/><br/>b
+            from
+            <input type="number" name="b.from" value="1"/>
+            to <input type="number" name="b.to" value="10"/><br/></div>
+    </form>
+</div>
+
+</body>
+</html>
