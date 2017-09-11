@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/discovery.iml" filepath="$PROJECT_DIR$/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend.iml" filepath="$PROJECT_DIR$/frontend.iml" group="openquestions-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/gate.iml" filepath="$PROJECT_DIR$/gate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geometry.iml" filepath="$PROJECT_DIR$/geometry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mathservice.iml" filepath="$PROJECT_DIR$/mathservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/open-questions-backend.iml" filepath="$PROJECT_DIR$/open-questions-backend.iml" group="openquestions-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/openquestions-parent.iml" filepath="$PROJECT_DIR$/openquestions-parent.iml" group="openquestions-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/telegram.iml" filepath="$PROJECT_DIR$/telegram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxii_century_school.iml" filepath="$PROJECT_DIR$/xxii_century_school.iml" />
+    </modules>
+  </component>
+</project>

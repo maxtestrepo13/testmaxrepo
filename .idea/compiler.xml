@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery" />
+        <module name="frontend" />
+        <module name="gate" />
+        <module name="geometry" />
+        <module name="mathservice" />
+        <module name="open-questions-backend" />
+        <module name="telegram" />
+        <module name="xxii_century_school" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery" target="1.8" />
+      <module name="frontend" target="1.8" />
+      <module name="gate" target="1.8" />
+      <module name="geometry" target="1.8" />
+      <module name="mathservice" target="1.8" />
+      <module name="open-questions-backend" target="1.8" />
+      <module name="openquestions-parent" target="1.8" />
+      <module name="telegram" target="1.8" />
+      <module name="xxii_century_school" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

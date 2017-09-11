@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Gate-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MapLogin-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TelegramBot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/geometry-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mathservice-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/open-questions-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/open-questions-master/backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/open-questions-master/frontend" charset="UTF-8" />
+  </component>
+</project>
